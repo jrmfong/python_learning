@@ -59,13 +59,13 @@ import time									# Used to allow wait commands
 import datetime								# Used to get the time and to convert seconds to HH:MM:SS time
 #import mimetypes							# Used to get the icon file type
 #import subprocess							# Used to run bash commands
-import hashlib								# Used to get the local checksum of the package
-import plistlib								# Used to read config details from a plist
+#import hashlib								# Used to get the local checksum of the package
+#import plistlib								# Used to read config details from a plist
 #import urllib.parse							# Used to parse the auth when getting casper.jxml and quoting the package name
 #import xml.etree.ElementTree as ET			# Used to search through XML data
-from cryptography.fernet import Fernet		# Used to encrypt DB password
-import mysql.connector						# Used to interact with a MySQL DB (python3 -m pip install mysql-connector)
-import json									# Used to dump json for Zendesk ticket generation
+#from cryptography.fernet import Fernet		# Used to encrypt DB password
+#import mysql.connector						# Used to interact with a MySQL DB (python3 -m pip install mysql-connector)
+#import json									# Used to dump json for Zendesk ticket generation
 import random
 
 # https://stackoverflow.com/questions/11887762/how-do-i-compare-version-numbers-in-python
